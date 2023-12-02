@@ -1,0 +1,106 @@
+/* 
+#02260F
+#01330C
+#001702
+#053303
+#072100
+
+*/
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image:url("../image/les.jpg");
+    height: 680px;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    position: absolute;
+    font-size: 2rem;
+    left: 16%;
+}
+
+nav{
+    position: absolute;
+    left: auto;
+    right: 1%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+nav a{
+    color: aliceblue;
+}
+
+header div{
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    top: 13%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 15%;
+    flex-wrap:wrap;
+    margin: auto;
+    
+}
+
+.slide{
+    width: 23%;
+    text-align: center;
+    
+}
+
+.slide img{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+.serchtype{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.serchtype p:hover{
+    color: rgb(0, 99, 0);
+    cursor: pointer;
+}
+
+.OurProjects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    width: 60%;
+    margin: auto;
+}
+
+.OurProjects img{
+    width: 30%;
+    margin-bottom: 1%;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logoA"><img class="logo" src="img/5ce26c50bedcc51b4648f6c7.jpg" alt="logo"></a>
+        <h1>
+            НАДЁЖНО!
+            ДЕШЕГО!
+            ПРОСТО!
+        </h1>
+        <div class="user">
+            <a href="">Регистрация</a>
+            <a href="">Вход</a>
+            <!-- <a href="">Выход</a> -->
+        </div>
+
+    </header>
+    <nav>
+        <a href="#aboutUs">О нас</a>
+        <a href="#whyWe">Почему нас</a>
+        <a href="#list">Наши услуги</a>
+        <a href="#create">Заказать</a>
+        <a href="#rev">Оставить отзыв</a>
+        <a href="#footer">Данные</a>
+        <form method="post">
+            <input type="text" name="search" id="" placeholder="Что ищем?">
+            <input type="submit" value="Поиск">
+        </form>
+    </nav>
+
+    <section class="aboutUs" id="aboutUs">
+        <!-- Задний фон ввиде градиента -->
+        <h1>О нас</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe dolore eveniet numquam enim possimus ex nihil ad, ipsum odio aliquam nesciunt? Fuga inventore ducimus sapiente vitae aspernatur saepe assumenda exercitationem!</p>
+    </section>
+
+    <section id="whyWe">
+        <h1>Почему выбирают нас</h1>
+        <div class="contentbig">
+            <div>
+                <p>Мы помогаем всем быстро</p>
+                <img src="img/pomosh.jpg" alt="">
+            </div>
+            <div>
+                <p>Мы выполняем весь спектр работ</p>
+                <img src="img/kompyuternaya-pomoshch-na-domu-0-min.jpg" alt="">
+            </div>
+            <div>
+                <p>Нам доверяют</p>
+                <img src="img/Remont20kompyuterov1.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="list" id="list">
+        <h1>Услуги</h1>
+
+        <div class="slider">
+            <div class="item">
+                <img src="img/rempk1.jpg" alt="Ремонт ПК">
+                <b>Ремонт ПК у вас</b>
+                <p>Выполняем все работы у вас дома! Специалист привозит набор инструментов с собой и ремонтирует неисправность</p>
+                <b>От 2000Р</b>
+            </div>
+            <div class="item">
+                <img src="img/rempk1.jpg" alt="Ремонт ПК">
+                <b>Ремонт ПК у нас</b>
+                <p>Ремонт ПК у нас в мастерской. Вы нам его приносите и мы его ремонтируем. Можно доставкой при согласовании.</p>
+                <b>От 1000Р</b>
+            </div>
+            <div class="item">
+                <img src="img/rempk1.jpg" alt="Ремонт ПК">
+                <b>Замена материнской платы</b>
+                <p>Замена платы на подобную с подобными характеристиками</p>
+                <b>От 1500Р</b>
+            </div>
+            <div class="item">
+                <img src="img/rempk1.jpg" alt="Ремонт ПК">
+                <b>Замена термопасты</b>
+                <p>Сделаем ваш компьютер более холодным за счет замены термопасты у процессора или видеокарты!</p>
+                <b>От 2500Р</b>
+            </div>
+            <div class="item">
+                <img src="img/rempk1.jpg" alt="Ремонт ПК">
+                <b>Замена ОЗУ</b>
+                <p>Замена не работающих или неисравных плашек на подходящие.</p>
+                <b>От 500Р + цена за ОЗУ</b>
+            </div>
+
+        </div>
+    </section>
+
+    
+
+
+<!-- Создать заявку -->
+    <section id="create">
+        <h1>Создать запрос</h1>
+        <form action="" method="post"> 
+            <input type="tel" name="tel" required placeholder="Введите ваш телефон">
+            <input type="text" name="name" required placeholder="Как к вам обращатся">
+            <input type="email" name="email" required placeholder="Введите ваш email">
+            <input type="text" name="services" required placeholder="Укажите требуемые услуги">
+            <input type="text" name="adress" placeholder="Ваш адресс">
+            <label>Согласие на обработку данных <input type="checkbox" required name="acceptPolice" id=""></label>
+            <input type="submit" value="Создать запрос">
+            
+        </form>
+    </section>
+
+<!-- Отзывы -->
+
+<section class="usersrev">
+    <h1>Отзывы оставленные пользователями</h1>
+
+    <div class="slider2">
+        <div class="item2">
+            <p>Имя</p>
+            <p>Отзыв</p>
+            <p><b>4/5</b></p>
+            <button>likeit</button>
+        </div>
+        <div class="item2">
+            <p>Имя</p>
+            <p>Отзыв</p>
+            <p><b>4/5</b></p>
+            <button>likeit</button>
+        </div>
+        <div class="item2">
+            <p>Имя</p>
+            <p>Отзыв</p>
+            <p><b>4/5</b></p>
+            <button>likeit</button>
+        </div>
+
+    </div>
+
+
+</section>
+
+<!-- Оставить отзыв -->
+    <section id="rev">
+        <h1>Оставить отзыв</h1>
+        <form method="post">
+            <input type="text" name="name" placeholder="Ваше имя">
+            <input type="text" name="review" placeholder="Ваш отзыв">
+            <label ><p>Оценка <input type="range" name="stars" id="" min="1" max="5" value="5" ></p></label>
+            <input type="email" name="email" placeholder="Ваша почта">
+            <input type="submit" value="Отправить отзыв">
+        </form>
+    </section>
+
+
+    <footer id="footer">
+        <div>
+            <p>Скорая компьютерная помощь</p>
+            <p>ООО"СКОРПКХЕЛП"</p>
+            <p>ИИ"ЧЧЧЧЧЧ"</p>
+            <a href="mailto:a@mail.ru">a@mail.ru</a>
+            <p>Работаем с 10 до 20 ежедневно</p>
+        </div>
+
+        <div>
+             <p><b>Где мы</b></p>
+            <img src="" alt="Карта">
+            <p>Москва ул Зои и Космодемьянских д13 ст5 подъезд 2 кв11</p>
+        </div>
+
+        <div>
+            <b>Мы в соцсетях</b>
+            <div>
+                <a href=""><img src="img/intro/1.png" alt=""></a>
+                <a href=""><img src="img/intro/2.png" alt=""></a>
+                <a href=""><img src="img/intro/3.png" alt=""></a>
+                <a href=""><img src="img/intro/4.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

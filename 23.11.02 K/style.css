@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    padding: 0 10%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+header div, nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+header div img{
+    height: 30px;
+    width: 30px;
+}
+
+nav *{
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.baner{
+    width: 80%;
+    margin: 0 10%;
+    padding: 2rem 0;
+}
+
+section{
+    width: 80%;
+    padding: 0 10%;
+}
+
+.find .nav *{
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    margin: 0 1rem;
+}
+
+.find .nav *:hover{
+    background-color: silver;
+}
+
+.findIt{
+    margin: 1rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.findIt input[type=text]{
+    width: 80%;
+    background-color: silver;
+    border: 0;
+    padding: 1rem;
+}
+
+.findIt input[type=submit]{
+    width: 19.9%;
+    background-color: orangered;
+    border: 0;
+     color: white;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.stroke{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.categ{
+    border: 1px solid silver;
+    width: 30%;
+    padding: 1rem;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.categ div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.categ a{
+    text-decoration: none;
+    color: silver;
+
+}
+
+
+.nav_categ *{
+    text-decoration: none;
+    color: black;
+    margin: 0 2rem 0 0;
+    padding: 0 0 1rem 0;
+}
+
+.nav_categ *:first-child{
+    border-bottom: 1px solid orangered;
+}
+
+.items{
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item{
+    padding: 1rem;
+    border: 1px solid silver;
+    width: 20%;
+    text-align: center;
+    
+}
+
+.buy{
+position: relative;
+left: 45%;
+top: 6%;
+}
+
+.item:hover .hiden_fastVatch{
+    display: block;
+}
+
+.mods{
+    
+    height: 14rem;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.hiden_fastVatch{
+    display: none;
+    position:relative;
+    top: 1rem;
+    width: 80%;
+    background-color: rgba(192, 192, 192, 0.5);
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid silver;
+
+    -webkit-box-shadow: 0px -1px 19px 5px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: 0px -1px 19px 5px rgba(34, 60, 80, 0.26);
+    box-shadow: 0px -1px 19px 5px rgba(34, 60, 80, 0.26);
+    
+}
+
+.hiden_fastVatch a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.mods img{
+    position: relative;
+    left: 40%;
+    margin-right: 1rem;
+}
+
+.i1{
+    
+    background-image: url(assets/belt.png);
+}
+
+.i2{
+    background-image: url(assets/wheel.png);
+}
+
+.i3{
+    background-image: url(assets/light.png);
+}
+.i4{
+    background-image: url(assets/wheel2.png);
+}
+
+.WathMore{
+    width: 10%;
+    padding: 1rem;
+    position: relative;
+    left: 45%;
+    right: auto;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 5%;
+    margin: 1rem 0 0 0;
+    background-color: rgb(244,244,246);
+}
+
+.spam{
+    margin: 0 2rem 0 0;
+}
+
+.infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.infos .contentInf{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.infos div a{
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+}

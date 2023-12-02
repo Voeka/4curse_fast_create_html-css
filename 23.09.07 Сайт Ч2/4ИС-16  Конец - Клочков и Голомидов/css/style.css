@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+ }
+ 
+
+ @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Inter:wght@200&family=Rubik:wght@700&display=swap');
+
+
+.slider {
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+    border: 10px solid #ca948c;
+    background-color: #b37c74;
+ }
+ 
+ .middle {
+    position: relative;
+    top: 100px;
+    
+    transform: translate(0, 0);
+ }
+ 
+ .navigation {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+ }
+ 
+ .bar {
+    width: 30px;
+    height: 8px;
+    margin: 6px;
+    cursor: pointer;
+    background-color: #8cca94;
+    opacity: .5;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+ }
+ 
+ .bar:hover {
+    opacity: 1;
+    transform:scale(1.1);
+ }
+ 
+ input[name="r"] {
+    position: absolute;
+    visibility: hidden;
+ }
+ 
+ .slides {
+    width: 400%;
+    height: 100%;
+    display: flex;
+ }
+ 
+ .slide {
+    width: 25%;
+    transition: all 0.6s ease;
+ }
+ 
+ .img {
+    width: 100%;
+    height: 100%;
+ }
+ 
+ #r1:checked ~ .s1 {
+    margin-left: 0;
+ }
+ 
+ #r2:checked ~ .s1 {
+    margin-left: -58.5%;
+ }
+ 
+ #r3:checked ~ .s1 {
+    margin-left: -350%;
+ }
+ 
+ 
+* {
+   margin: 0;
+   padding: 0;
+}
+ 
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+
+    /* width: 5px; */
+
+    height: 100px;
+}
+
+header a{
+    height: auto;
+    width: auto;
+}
+
+header a:hover{
+    background-color: #b6abf8;
+    color: white;
+}
+
+
+
+header img{
+    height: 80%;
+    width: auto;
+}
+
+.sectionbuysugar{
+    background-color: #948CCA;
+    margin-bottom: 8%;
+    
+}
+
+
+
+.sectionbuysugar *{
+    margin: auto;
+}
+
+.bigH1{
+    margin: auto;
+}
+
+.bigH1 *{
+    width: fit-content;
+
+}
+
+
+
+.sectionbuysugar form{
+    
+    width: fit-content ;
+    
+}
+
+
+
+.sectionbuysugar form *{
+   font-size: 12pt;
+}
+
+.sectionbuysugar form *:hover{
+   background-color: #e59e93;
+}
+
+.bigH1{
+   color: black;
+   
+}
+
+h1{
+   font-size: 36pt;
+   margin: auto;
+   font-family: 'Rubik', sans-serif;
+}
+
+.bigH1 p{
+   font-size: 24pt;
+   margin: auto;
+}
+
+
+.aboutUsSugar{
+   width: fit-content;
+   margin: auto;
+}
+
+.aboutUsSugar{
+   margin-bottom: 5%;
+}
+
+.aboutUsSugar h1{
+   margin: auto;
+}
+
+.OurPlus{
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content:  space-between;
+}
+
+.colonka{
+   margin: 0 30px;
+}
+
+.Plus{
+   display: flex;
+   flex-direction: row;
+   
+}
+
+.Plus img{
+   width: 75px;
+}
+
+.AboutUs{
+   display: flex;
+   flex-direction: row;
+   background-color: #948CCA;
+   
+}
+
+
+
+.AboutUs img{
+   width: 50%;
+}
+
+.AboutUs div{
+   margin: 10% 5%;
+}
+
+.AboutUs p{
+   font-size: 24pt;
+}
+
+.ChoosPrice{
+   background-color: rgb(223, 223, 223);
+   padding-top: 5%;
+   padding-bottom: 5%;
+   margin-bottom: 5%;
+}
+
+.BodyPrice{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin: auto;
+   
+}
+
+.Block{
+   padding: 2%;
+   border: 1px black solid;
+   background-color: white;
+   width: 200px;
+}
+
+.Block:hover{
+   background-color: #ec9082;
+   padding: 4%;
+}
+
+.Block p{
+   font-size: 18pt;
+}
+
+.Block .Plan{
+   font-size: 22pt;
+   font: bold;
+}
+
+.Block .Money{
+   color: #8cca94;
+   font-size: 26pt;
+}
+
+.Block button{
+   font-size: 20pt;
+   background-color: #948CCA;
+}
+
+.Block button:hover{
+   background-color: silver;
+}
+
+.HowBlock{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+.HowBlock img{
+   width: 100px;
+}
+
+.howitWorks{
+   margin-bottom: 5%;
+}
+
+.howitWorks .buy{
+   position: absolute;
+   left: 45%;
+   right: 45%;
+   background-color: #8cca94;
+}
+
+.howitWorks .buy:hover{
+  
+   background-color: #948CCA;
+}
+
+.clients{
+   margin: 0 auto;
+   padding: 5% 0;
+   background-color: #f1b1a7;
+}
+
+.favor{
+   width: 60%;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.favor div{
+   display: flex;
+   flex-direction: row;
+   width: 38%;
+   margin: 2% 5%;
+   padding: 1%;
+   background-color: #948CCA;
+
+}
+
+.favor div img{
+   height: 300px;
+   width: 300px;
+   border-radius: 50%;
+}
+
+.favor div p{
+   margin: auto;
+   padding: 2%;
+}
+
+.adds *{
+   margin: auto;
+}
+
+.getSpam{
+   display: flex;
+   flex-direction: column;
+   justify-self: center;
+}
+
+.getSpam  input:hover{
+   background-color: #8cca94;
+}
+
+
+iframe{
+   padding-top: 2%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   justify-self: center;
+   
+}
+
+.telephon{
+   padding: 1%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   font-size: 36px;
+}
+
+.MediaPL{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   width: 100%;
+   margin: 0;
+}
+
+.MediaPL a{
+   margin: 0 4%;
+   width: 3%;
+   
+}
+
+.MediaPL a:hover{
+   background-color: #8cca94;
+}
+
+
+.MediaPL a img{
+   width: 100%;
+}
+
+.Last{
+   width: 100%;
+   height: 20px;
+   background-color: #948CCA;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   padding: 10px;
+   margin-top: 5%;
+}

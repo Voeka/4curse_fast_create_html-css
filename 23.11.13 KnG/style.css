@@ -1,0 +1,229 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #555A6E;
+    padding-bottom: 0.5rem;
+}
+
+
+
+.left{
+    font-size: 2rem;
+    
+    
+}
+
+.left a{
+    display: flex;
+    flex-direction: row;
+    margin: 0rem 0rem 0 0 ;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+}
+
+.left a p{
+    margin: 0.5rem 0 0 0.5rem;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    color: #737994;
+}
+
+nav{
+    margin-top: 0.5rem;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 0.1rem 0 0.1rem;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    color: #7CDD34;
+}
+
+.right p{
+    margin: 0.5rem 0 0 0;
+    padding: 0;
+    color: white;
+}
+
+.right p b{
+    color: #737994;
+    margin: 0 0.3rem 0 0 ;
+}
+
+.right a{
+    color: #7CDD34;
+}
+
+
+/*  */
+
+
+
+
+
+
+.slider-with-butts{
+    width: 100%;
+    height: 30rem;
+    border-bottom: green 2px solid;
+    background-image: url(https://st03.kakprosto.ru/images/article/2016/11/11/70234_58257c027673058257c027676a.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.shadow{
+    background-color: #3d4463cb;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.shadow h1{
+    text-align: center;
+    margin: 0;
+    padding-top: 5rem;
+    font-size: 3rem;
+    color: white;
+    
+}
+
+.shadow h2{
+    text-align: center;
+    margin: 0;
+    font-size: 1.5rem;
+    color: #9b9b9b;
+}
+
+.more{
+    color: white;
+    background-color: #7CDD34;
+    border: 0;
+    padding: 1rem 2rem 1rem 2rem;
+    text-align: center;
+    margin-left: 47%;
+    margin-right: 43%;
+    margin-top: 2rem;
+}
+
+.radio{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.radio input{
+    color: green;
+}
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.slide{
+    width: 12%;
+    height: 15rem;
+    background-color: red;
+    text-align: center;
+    background-position: center;
+    /* background-size: contain; */
+}
+
+.slide:hover .content-slide{
+    display: block;
+}
+
+.s1{
+    background-image: url(https://img.freepik.com/premium-vector/seamless-pattern-with-people-faces-of-different-ethnicity-and-ages_111701-294.jpg);
+}
+
+.s2{
+    background-image: url(https://img.freepik.com/premium-photo/a-simple-cute-cartoon-of-a-turkey-sitting-at-a-thanksgiving-dinner_950002-310469.jpg);
+}
+
+.s3{
+    background-image: url(https://img.freepik.com/premium-vector/fish-background_99338-94.jpg);
+}
+
+.s4{
+    background-image: url(https://fon.litrelax.ru/uploads/posts/2023-01/1674300224_foni-club-p-fon-kosmosa-dlya-fotoshopa-1.jpg);
+}
+
+
+.content-slide{
+    padding-top: 4rem;
+    display: none;
+    /* background-color: green; */
+    width: 100%;
+    padding-bottom: 2.6rem;
+    height: max-content;
+    
+}
+
+.content-slide p{
+    color: white;
+    
+}
+
+.content-slide a{
+    color: black;
+    font-size: 0.8rem;
+}
+
+.moreSlider{
+    padding: 1rem 2rem 1rem 2rem;
+    margin-top: 1rem;
+}
+
+.group{
+    width: 70%;
+    margin: 3rem auto 3rem auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.leftgrop{
+    border: 1px solid black;
+    width: 40%;
+    height: min-content;
+}
+
+.leftgrop a{
+    margin: 0;
+}
+
+.rightgrop{
+    border: 1px solid grey;
+    width: 50%;
+    height: max-content;
+    padding: 2rem;
+}
+
+.rightgrop div{
+    display: flex;
+    flex-direction: row;
+}
+
+.moreAgain{
+    position: absolute;
+    margin-top: 15rem;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: #7CDD34;
+    border: 0;
+}

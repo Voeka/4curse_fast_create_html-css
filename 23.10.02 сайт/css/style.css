@@ -1,0 +1,257 @@
+/* 
+#02260F
+#01330C
+#001702
+#053303
+#072100
+
+*/
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image:url("../image/les.png");
+    height: 44rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.logo{
+    top: 2rem;
+    position: absolute;
+    font-size: 2rem;
+    left: 20rem;
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+}
+
+nav{
+    top: 2rem;
+    position: absolute;
+    left: auto;
+    right: 4rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+}
+
+header div{
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    top: 13%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+header h1{
+    color: white;
+    
+}
+
+header p{
+    color: white;
+}
+
+header button{
+    width: 10rem;
+    height: 4rem;
+    color: white;
+    background: none;
+    border: 3px solid white;
+}
+
+
+
+
+/* Конец хедера */
+/* Сервисы */
+
+#services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#services h1{
+    font-size: 2rem;
+}
+
+#services p{
+    font-size: 1.2rem;
+}
+
+#services b{
+    font-size: 1.5rem;
+}
+
+.bigServ{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Serv{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.Serv img{
+    width: 5rem;
+    height: 5rem;
+    margin: auto;
+    margin-bottom: 0;
+margin-top: 0;
+    /* background-color: rebeccapurple; */
+}
+
+.stick{
+    width: 7rem;
+    height: 0.2rem;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+}
+/* Konez serv */
+/* about us */
+
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(223, 223, 223)
+}
+
+#about h1{
+    font-size: 2rem;
+}
+
+.OBUS{
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.buttonslider{
+    position:absolute;
+    font-size: 8rem;
+    cursor: pointer;
+}
+
+.left{
+    /* padding-top: 10rem; */
+    left: 1rem;
+}
+
+.right{
+    right: 1rem;
+    /* padding-top: 10rem; */
+}
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 15%;
+    flex-wrap:wrap;
+    margin: auto;
+    
+}
+
+.slide{
+    width: 23%;
+    text-align: center;
+    
+}
+
+.slide img{
+    width: 100%;
+    height: 25rem;
+}
+
+/* about */
+/* works */
+
+#works{
+    text-align: center;
+}
+
+.serchtype{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.serchtype p:hover{
+    color: rgb(0, 99, 0);
+    cursor: pointer;
+}
+
+.OurProjects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    width: 60%;
+    margin: auto;
+}
+
+.OurProjects img{
+    width: 30%;
+    margin-bottom: 1%;
+}
+
+.OurProjects img:hover{
+    scale: 1.5;
+    transition: 1s;
+}
+
+/* works */
+
+
+
+footer{
+    background-image: url(../image/L1.png);
+    width: 100%;
+    height: 20rem;
+    color: white;
+    text-align: center;
+}
+
+footer h1{
+    padding-top: 5rem;
+    top: 5rem;
+
+}
+
+footer button{
+    background: rgba(0, 0, 0, 0.4);
+    width: 20rem;
+    height: 5rem;
+    font-size: 2rem;
+    color: white;
+    border: 3px solid white;
+}

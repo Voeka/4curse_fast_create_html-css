@@ -1,0 +1,136 @@
+html{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+*{
+    font-family:  Verdana, sans-serif;
+}
+
+@media screen and (max-width:650px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+        padding-bottom: 2vw;
+    }
+
+    h1{
+        font-weight: 100;
+        font-size: 5vw;
+        color: rgb(206, 181, 118);
+    }
+
+    .namesite{
+        border-bottom: 1px solid rgb(83, 71, 41);
+        border-top: 1px solid rgb(83, 71, 41);
+        text-align: center;
+        color: silver;
+    }
+
+    .name{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: silver;
+        width: 90%;
+        margin: auto;
+    }
+
+    .name *{
+        margin-bottom: 0;
+        margin-top: 4vw;
+    }
+
+    .all{
+        color: rgb(184, 152, 73);
+        text-decoration: none;
+    }
+
+    .items{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+
+    }
+
+    .item{
+        display: inline-block;
+        flex-direction: column;
+        width: 50vw;
+        border-radius: 2vw;
+        flex: 0 0 auto;
+    }
+
+    .item:nth-child(2n+1){
+        background-color: silver;
+    }
+
+    .item h2{
+        margin-top: 60vw;
+        text-align: center;
+        color: rgb(184, 152, 73);
+        font-weight: 100;
+    }
+
+    .item h3{
+        text-align: center;
+        color: rgb(112, 112, 112);
+        font-weight: 100;
+    }
+
+    .item b{
+        text-align: center;
+        color: rgb(184, 152, 73);
+        font-weight: 100;
+        margin: auto;
+    }
+
+    .item img{
+        position: relative;
+        left: 80%;
+        right: inherit;
+        height: 8vw;
+        width: 8vw;
+    }
+
+    .watch1{
+        background-image: url('item1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-clip: content-box;
+        background-size: 40vw;
+        background-position-y: 0;
+    }
+    .watch2{
+        background-image: url('item2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-clip: content-box;
+        background-size: 40vw;
+        background-position-y: 0;
+    }
+    
+    .newwatch {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 70%;
+        background-color: rgb(41, 40, 32);
+        margin: auto;
+        padding: 5vw;
+        border-radius: 2vw;
+    }
+
+    .newwatch p{
+        color: silver;
+    }
+
+    .newwatch b{
+        color: rgb(184, 152, 73);
+    }
+    
+}

@@ -1,0 +1,240 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: "ROBOTO", Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: "ROBOTO";
+    src: url(fonts/Roboto-Thin.ttf);
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid blueviolet;
+    margin-bottom: 2vw;
+}
+
+header h1{
+    margin: auto;
+    color: blueviolet;
+    font-size: 1.4vw;
+}
+
+header img{
+    height: 10vw;
+    width: 10vw;
+    
+}
+
+header div{
+    margin: auto 0;
+}
+
+.user a{
+    color: blueviolet;
+    padding: 0 1vw;
+    border: 1px solid blueviolet;
+    border-radius: 1vw;
+    text-decoration: none;
+    font-size: 1.1vw;
+}
+
+.user a:hover{
+    color: darkblue;
+    background-color: rgb(235, 235, 235);
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.2vw;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: blueviolet;
+    padding: 0 1vw;
+    border: 1px solid blueviolet;
+    border-radius: 1vw;
+}
+
+nav a:hover{
+    color: darkblue;
+    background-color: rgb(235, 235, 235);
+}
+
+nav input{
+    font-size: 1.1vw;
+    border: blueviolet 1px solid;
+    color: blueviolet;
+
+}
+
+/* aboutUs */
+
+.aboutUs, #whyWe, .list{
+    width: 90%;
+    margin: auto;
+    background-color: silver;
+    text-align: center;
+    border-radius: 1vw;
+    /* border: 1px solid blueviolet; */
+}
+
+.aboutUs h1, #whyWe h1,#list h1, #create h1{
+    font-size: 2vw;
+    padding-top: 1vw;
+}
+
+.aboutUs p{
+    font-size: 1.5vw;
+    color: black;
+    padding-bottom: 1vw;
+}
+
+.contentbig{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contentbig div{
+    font-size: 1.5vw;
+    font-weight: bold;
+    
+}
+
+.contentbig img{
+    height: 15vw;
+    padding-bottom: 1vw;
+    border-radius: 1vw;
+}
+
+/* list */
+
+.slider{
+    height: 38vw;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.item{
+    padding: 1vw;
+}
+
+.item img{
+    height: 28vw;
+}
+
+.item b{
+    color: blueviolet;
+    font-size: 1.1vw;
+}
+
+.item p{
+    font-size: 0.9vw;
+    color: black;
+}
+
+/* create */
+
+#create{
+    width: 90%;
+    background-color: silver;
+    margin: auto;
+    text-align: center;
+    border-radius: 1vw;
+}
+
+#create form{
+    padding-bottom: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#create form input[type='text'],#create form input[type='tel'],#create form input[type='email'],#create form input[type='submit']{
+    width: 30vw;
+    margin: 0.5vw auto;
+    font-size: 1.2vw;
+    text-align: center;
+    border-radius: 1vw;
+    
+}
+/* usersrev */
+
+.usersrev{
+    background-color: silver;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border-radius: 1vw;
+}
+
+.slider2{
+    height: max-content;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    font-size: 2vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+/* rev */
+#rev{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border-radius: 1vw;
+    background-color: silver;
+}
+
+#rev form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.1vw;
+}
+
+#rev form input[type='text'], #rev form input[type='email'],#rev form input[type='submit']{
+    width: 30vw;
+    margin:0.5vw auto;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+
+/* footer */
+
+footer{
+    background-color: silver;
+    border-top: 1px blueviolet solid;
+    margin-top: 3vw;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.1vw;
+    padding-bottom: 3vw;
+}
+
+footer a{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+footer img{
+    height: 5vw;
+}
